@@ -10,7 +10,7 @@ print('''
 
 seçilen_sayi=random.randint(1,101)
 
-change=4
+change=5
 while change>0:
     try:
         girdi=int(input('Bir sayi giriniz: '))
@@ -36,7 +36,7 @@ while change>0:
         
         change-=1
             
-        print('Kalan hak',change + 1)
+        print('Kalan hak',change)
             
     if change<1:
         print('Hakkiniz bitti oyunu kaybettiniz')
